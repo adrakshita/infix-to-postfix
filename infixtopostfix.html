@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link href="infixtopostfix.css" rel="stylesheet">
+    <div>
+        <p>Infix to Postfix Conversion</p>
+        <!-- Taking infix expression as input -->
+        <span style="font-size:1.4vw;  font-size: 2.2vw;">
+            Enter Valid Infix Expression
+        </span>
+        <br><br>
+        <input type="text" class="Input-text" placeholder="Infix Expression" id="input">
+        
+        <br><br>
+ 
+        <!-- InfixtoPostfix() function call-->
+        <button onclick="InfixtoPostfix()" class="btn1">Convert</button><br><br>
+        <button onclick="back()"class="btn1">Back</button>
+        <button onclick="next()"class="btn1">Next</button><br><br>
+    </div>
+    <div>
+ 
+        <!-- Postfix expression printed -->
+        <span style="font-size:1.4vw;  font-size: 2.2vw;">
+            Stack:
+            <span id="stack" style="color: black; font-weight: 600;">
+            </span><br><br>
+        </span>
+        <span style="font-size:1.4vw;  font-size: 2.2vw;">
+            Postfix Expression:
+            <span id="output" style="color: black; font-weight: 600;">
+            </span><br><br>
+        </span>
+        
+    </div>
+    <script src="infixtopostfix.js">
+        
+    </script>
+</body>
+</html>
